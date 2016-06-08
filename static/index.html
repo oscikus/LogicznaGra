@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman</title>
+    
+    <script type="text/javascript" src="static/libs/three.js"> </script>
+    <script type="text/javascript" src="static/libs/jquery-1.11.3.min.js"></script>
+    <link href="static/css.css" rel="stylesheet"/>
+    <script src="static/main.js"></script>
+    <script src="static/js/hangman.js"></script>
+    <script src="static/js/game.js"></script>
+    
+    <meta charset="utf-8" />
+    <!--
+    <script type="text/javascript" src="libs/three.js"> </script>
+    <script type="text/javascript" src="libs/jquery-1.11.3.min.js"></script>
+    <link href="css.css" rel="stylesheet" />
+    
+    <script src="main.js"></script>
+    <script src="js/hangman.js"></script>
+    <script src="js/game.js"></script>
+    -->
+    <script>
+        var main;
+
+        window.addEventListener("load", function () {
+            main = new Main();
+
+        });
+
+    </script>
+</head>
+<body>
+    <div id="menu">
+        <h1>Hangman</h1>
+        <h3>by ChrząWelusPol</h3>
+        <div id="text">
+            <input type="text" id="login" />
+        </div>
+        <div id="start">START</div>
+        <div id="reset">RESET</div>
+    </div>
+<div id="hangman">
+
+</div>
+<div id="main">
+    <div id="text1">Słowo do odgadnięcia:</div>
+    <div id="word"></div>
+    <div id="text2">Zużyte litery:</div>
+    <div id="badLetters"></div>
+
+    <div id="text3">Witaj w Hangmanie, innowacyjnej grze logicznej autorstwa firmy ChrząWelusPol. Pokaż swojemu przeciwnikowi, że nie zna słów, którymi może Cię zaskoczyć. Zniszcz go i pokaż gdzie pieprz rośnie, znaczy gdzie raki zimują. </div>
+</div>
+</body>
+</html>

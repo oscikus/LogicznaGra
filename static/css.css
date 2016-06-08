@@ -1,0 +1,132 @@
+﻿body{
+    font-family: Segoe UI;
+    background-color: darkcyan;
+}
+#hangman{
+    /*width: 200px;
+    height: 200px;*/
+    left:0;
+    top: 0;
+    border: 2px solid aqua;
+    width: 34vw;
+    display: inline-block;
+}
+#main {
+    
+    height: 97.5vh;
+    width: 60vw;
+    float: right;
+    border: 2px solid aqua;
+    display: inline-block;
+    text-align: center;
+
+}
+#text1 {
+    text-align: center;
+    margin: 0 auto;
+    height: 5vh;
+    width: 50vw;
+    position: absolute;
+    top: 5vh;
+    right: 7vw;
+    background-color: aqua;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+#word {
+    margin-top: 5vh;
+    text-align: center;
+    margin: 0 auto;
+    height: 25vh;
+    width: 50vw;
+    position: absolute;
+    top: 10vh;
+    right: 7vw;
+    background-color: aqua;
+    font-size: 10vh;
+    overflow: hidden;
+}
+#text2 {
+    text-align: center;
+    margin: 0 auto;
+    height: 5vh;
+    width: 50vw;
+    position: absolute;
+    top: 40vh;
+    right: 7vw;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+#badLetters {
+    text-align: center;
+    margin: 0 auto;
+    height: 20vh;
+    width: 50vw;
+    position: absolute;
+    top: 45vh;
+    right: 7vw;
+    background-color: aquamarine;
+    font-size: 7vh;
+    overflow: hidden;
+}
+#text3 {
+    width: 50vw;
+    position: absolute;
+    bottom: 5vh;
+    right: 7vh;
+}
+         #menu {
+             /*opacity: 0.2;*/
+             text-align: center;
+             font-family: Seqoe UI, aqua;
+             text-decoration-color: aqua;
+             background-color: darkcyan;
+             width: 100%;
+             height: 100%;
+             position: fixed;
+             left: 0;
+             top: 0;
+             -webkit-transform: translate3d(0%, 0, 0);
+             transform: translate3d(0%, 0, 0);
+             -webkit-transition-duration: .5s;
+             transition-duration: .5s;
+             animation-timing-function: ease-in;
+             z-index: 2;
+         }
+        #menu.animuj{
+            -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+            animation-timing-function: ease-in;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+        }
+                #start {
+            opacity: 1;
+            padding: 1vh;
+            position: absolute;
+            top: 40vh;
+            left: 25vw;
+            height: 5vh;
+            width: 50vw;
+            background-color: aqua;
+        }
+        #login {
+            opacity: 1;
+            padding: 1vh;
+            position: absolute;
+            top: 30vh;
+            left: 25vw;
+            height: 5vh;
+            width: 50vw;
+            background-color: aqua;
+        }
+#reset {
+    opacity: 1;
+    padding: 1vh; 
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    height: 5vh;
+    width: 50vw;
+    background-color: aqua;
+}
